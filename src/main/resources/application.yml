@@ -1,8 +1,8 @@
 spring:
   datasource:
-    username: qx
-    password: qx123
-    url: jdbc:mysql://182.92.157.71:3306/clean-system-wandao?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2b8
+    username: wangtoye
+    password: wangtoye
+    url: jdbc:mysql://localhost:3306/test?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2b8
     driver-class-name: com.mysql.cj.jdbc.Driver
 mybatis-plus:
   global-config:

@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.wangtoye</groupId>
-    <artifactId>MixedDemo</artifactId>
+    <artifactId>mixed-demo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>MixedDemo</name>
+    <name>mixed-demo</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -39,10 +39,16 @@
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
         </dependency>
+        <!-- mybatis-plus -->
         <dependency>
             <groupId>com.baomidou</groupId>
             <artifactId>mybatis-plus-boot-starter</artifactId>
-            <version>3.1.0</version>
+            <version>3.2.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-generator</artifactId>
+            <version>3.2.0</version>
         </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>
