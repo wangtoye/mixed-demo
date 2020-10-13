@@ -1,4 +1,4 @@
-package com.wangtoye.mixeddemo.dto;
+package com.wangtoye.mixeddemo.dto.kaptcha;
 
 import lombok.Data;
 import lombok.experimental.Accessors;

@@ -1,4 +1,4 @@
-package com.wangtoye.mixeddemo.config.event;
+package com.wangtoye.mixeddemo.common.config.event;
 
 import org.springframework.context.event.EventListener;
 import org.springframework.core.annotation.Order;

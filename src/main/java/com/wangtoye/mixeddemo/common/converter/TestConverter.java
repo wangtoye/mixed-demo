@@ -1,8 +1,8 @@
-package com.wangtoye.mixeddemo.mapping;
+package com.wangtoye.mixeddemo.common.converter;
 
-import com.wangtoye.mixeddemo.domain.Test;
-import com.wangtoye.mixeddemo.dto.TestDto;
-import com.wangtoye.mixeddemo.dto.TestDto2;
+import com.wangtoye.mixeddemo.domain.kaptcha.Test;
+import com.wangtoye.mixeddemo.dto.kaptcha.TestDto;
+import com.wangtoye.mixeddemo.dto.kaptcha.TestDto2;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.factory.Mappers;

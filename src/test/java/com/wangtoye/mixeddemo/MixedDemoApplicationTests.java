@@ -1,8 +1,8 @@
 package com.wangtoye.mixeddemo;
 
-import com.wangtoye.mixeddemo.dto.TestDto;
-import com.wangtoye.mixeddemo.dto.TestDto2;
-import com.wangtoye.mixeddemo.mapping.TestConverter;
+import com.wangtoye.mixeddemo.common.converter.TestConverter;
+import com.wangtoye.mixeddemo.dto.kaptcha.TestDto;
+import com.wangtoye.mixeddemo.dto.kaptcha.TestDto2;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
@@ -11,7 +11,7 @@ class MixedDemoApplicationTests {
 
     @Test
     void beanCopy() {
-        com.wangtoye.mixeddemo.domain.Test test = new com.wangtoye.mixeddemo.domain.Test()
+        com.wangtoye.mixeddemo.domain.kaptcha.Test test = new com.wangtoye.mixeddemo.domain.kaptcha.Test()
                 .setId(1)
                 .setName("abc")
                 .setPass(true);

@@ -1,4 +1,4 @@
-package com.wangtoye.mixeddemo.config.event;
+package com.wangtoye.mixeddemo.common.config.event;
 
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.context.annotation.Bean;

@@ -1,4 +1,4 @@
-package com.wangtoye.mixeddemo.config.swagger;
+package com.wangtoye.mixeddemo.common.config.swagger;
 
 import io.swagger.annotations.ApiOperation;
 import org.springframework.context.annotation.Bean;

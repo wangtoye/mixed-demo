@@ -1,19 +1,19 @@
-package com.wangtoye.mixeddemo.domain;
+package com.wangtoye.mixeddemo.dto.neo4j;
 
 import lombok.Data;
 import lombok.experimental.Accessors;
+
+import java.util.List;
 
 /**
  * Created with IntelliJ IDEA.
  *
  * @author wangtoye
- * @date 2020/10/10
+ * @date 2020/10/13
  * Description:
  */
 @Data
 @Accessors(chain = true)
-public class Test {
-    private Integer id;
-    private String name;
-    private Boolean pass;
+public class PersonRelationDto {
+    private List<Long> ids;
 }

@@ -1,4 +1,4 @@
-package com.wangtoye.mixeddemo.common;
+package com.wangtoye.mixeddemo.common.handler;
 
 import com.baomidou.kaptcha.exception.KaptchaException;
 import com.baomidou.kaptcha.exception.KaptchaIncorrectException;

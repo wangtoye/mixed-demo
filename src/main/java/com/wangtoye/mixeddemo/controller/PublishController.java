@@ -1,6 +1,6 @@
 package com.wangtoye.mixeddemo.controller;
 
-import com.wangtoye.mixeddemo.config.event.EventOne;
+import com.wangtoye.mixeddemo.common.config.event.EventOne;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;

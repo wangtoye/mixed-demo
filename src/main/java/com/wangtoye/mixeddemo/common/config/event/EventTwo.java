@@ -1,4 +1,4 @@
-package com.wangtoye.mixeddemo.config.event;
+package com.wangtoye.mixeddemo.common.config.event;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -15,11 +15,11 @@ import org.springframework.context.ApplicationEvent;
 @Getter
 @Setter
 @Accessors(chain = true)
-public class EventOne extends ApplicationEvent {
+public class EventTwo extends ApplicationEvent {
 
-    public EventOne() {
+    public EventTwo() {
         super(new Object());
     }
 
-    private Integer id;
+    private boolean sex;
 }
