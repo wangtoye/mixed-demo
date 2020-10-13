@@ -1,5 +1,7 @@
 package com.wangtoye.mixeddemo.controller;
 
+import com.wangtoye.mixeddemo.dto.neo4j.BankCardDto;
+import com.wangtoye.mixeddemo.dto.neo4j.PersonBankCardRelationDto;
 import com.wangtoye.mixeddemo.dto.neo4j.PersonDto;
 import com.wangtoye.mixeddemo.dto.neo4j.PersonRelationDto;
 import com.wangtoye.mixeddemo.service.Neo4jService;
@@ -49,6 +51,20 @@ public class Neo4jController {
     @ApiOperation(value = "添加用户关系")
     public String addPersonRelation(@RequestBody PersonRelationDto personRelationDto) {
         neo4jService.addPersonRelation(personRelationDto);
+        return "OK";
+    }
+
+    @PostMapping("/addBankCard")
+    @ApiOperation(value = "添加银行卡")
+    public String addBankCard(@RequestBody BankCardDto bankCardDto) {
+        neo4jService.addBankCard(bankCardDto);
+        return "OK";
+    }
+
+    @PostMapping("/addPersonBankCardRelation")
+    @ApiOperation(value = "添加用户银行卡关系")
+    public String addPersonBankCardRelation(@RequestBody PersonBankCardRelationDto personBankCardRelationDto) {
+        neo4jService.addPersonBankCardRelation(personBankCardRelationDto);
         return "OK";
     }
 }
