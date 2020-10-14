@@ -6,5 +6,5 @@ ApplicationEventPublisher 自定义线程池处理事件
 kaptcha  
 ##3、swagger3  
 地址：http://localhost:8080/v3/api-docs  
-##4、neo4j
+##4、neo4j  
 地址：http://localhost:7474/browser/
