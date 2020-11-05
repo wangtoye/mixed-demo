@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.taiyi.solutions.mapper.USignMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.taiyi.solutions.entity.USign">
+        <id column="id" property="id" />
+        <result column="user_id" property="userId" />
+        <result column="real_name" property="realName" />
+        <result column="id_card" property="idCard" />
+        <result column="phone" property="phone" />
+        <result column="dealer_id" property="dealerId" />
+        <result column="dealer_product_name" property="dealerProductName" />
+        <result column="broker_id" property="brokerId" />
+        <result column="broker_product_name" property="brokerProductName" />
+        <result column="auditor_id" property="auditorId" />
+        <result column="auditor_name" property="auditorName" />
+        <result column="audite_status" property="auditeStatus" />
+        <result column="gmt_audited" property="gmtAudited" />
+        <result column="principle_version" property="principleVersion" />
+        <result column="sign_resource" property="signResource" />
+        <result column="current_sign_model" property="currentSignModel" />
+        <result column="sign_resource_supplement" property="signResourceSupplement" />
+        <result column="month_quota_check" property="monthQuotaCheck" />
+        <result column="sign_agreement" property="signAgreement" />
+        <result column="sign_order_id" property="signOrderId" />
+        <result column="gmt_created" property="gmtCreated" />
+        <result column="gmt_updated" property="gmtUpdated" />
+        <result column="process_status" property="processStatus" />
+        <result column="pli_agreement_sign" property="pliAgreementSign" />
+    </resultMap>
+
+</mapper>

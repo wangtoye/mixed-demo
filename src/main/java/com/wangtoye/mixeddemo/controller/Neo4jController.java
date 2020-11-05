@@ -4,7 +4,7 @@ import com.wangtoye.mixeddemo.dto.neo4j.BankCardDto;
 import com.wangtoye.mixeddemo.dto.neo4j.PersonBankCardRelationDto;
 import com.wangtoye.mixeddemo.dto.neo4j.PersonDto;
 import com.wangtoye.mixeddemo.dto.neo4j.PersonRelationDto;
-import com.wangtoye.mixeddemo.service.Neo4jService;
+import com.wangtoye.mixeddemo.service.neo4j.Neo4jService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import lombok.AllArgsConstructor;

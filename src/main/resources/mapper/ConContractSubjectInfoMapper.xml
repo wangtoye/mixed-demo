@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.taiyi.solutions.mapper.ConContractSubjectInfoMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.taiyi.solutions.entity.ConContractSubjectInfo">
+        <id column="id" property="id" />
+        <result column="dealer_id" property="dealerId" />
+        <result column="dealer_name" property="dealerName" />
+        <result column="dealer_product_name" property="dealerProductName" />
+        <result column="dealer_industry_category" property="dealerIndustryCategory" />
+        <result column="member_code" property="memberCode" />
+        <result column="fee_rate" property="feeRate" />
+        <result column="notify_type" property="notifyType" />
+        <result column="audit_status" property="auditStatus" />
+        <result column="version" property="version" />
+        <result column="operator_id" property="operatorId" />
+        <result column="operator_name" property="operatorName" />
+        <result column="gmt_create" property="gmtCreate" />
+        <result column="gmt_update" property="gmtUpdate" />
+        <result column="is_deleted" property="isDeleted" />
+    </resultMap>
+
+</mapper>

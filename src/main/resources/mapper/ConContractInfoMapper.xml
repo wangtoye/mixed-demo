@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.taiyi.solutions.mapper.ConContractInfoMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.taiyi.solutions.entity.ConContractInfo">
+        <id column="id" property="id" />
+        <result column="subject_id" property="subjectId" />
+        <result column="contract_type" property="contractType" />
+        <result column="contract_no" property="contractNo" />
+        <result column="is_standard" property="isStandard" />
+        <result column="is_special" property="isSpecial" />
+        <result column="special_provisions" property="specialProvisions" />
+        <result column="contract_version" property="contractVersion" />
+        <result column="credit_amount" property="creditAmount" />
+        <result column="credit_cycle" property="creditCycle" />
+        <result column="subject_end_time" property="subjectEndTime" />
+        <result column="effective_time" property="effectiveTime" />
+        <result column="expiration_time" property="expirationTime" />
+        <result column="file_url" property="fileUrl" />
+        <result column="version" property="version" />
+        <result column="gmt_create" property="gmtCreate" />
+        <result column="gmt_update" property="gmtUpdate" />
+        <result column="is_deleted" property="isDeleted" />
+    </resultMap>
+
+</mapper>

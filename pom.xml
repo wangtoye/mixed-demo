@@ -105,6 +105,13 @@
             <artifactId>guava</artifactId>
             <version>26.0-jre</version>
         </dependency>
+
+        <!--状态机-->
+        <dependency>
+            <groupId>org.springframework.statemachine</groupId>
+            <artifactId>spring-statemachine-starter</artifactId>
+            <version>2.2.0.RELEASE</version>
+        </dependency>
     </dependencies>
 
     <build>

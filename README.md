@@ -7,4 +7,7 @@ kaptcha
 ##3、swagger3  
 地址：http://localhost:8080/v3/api-docs  
 ##4、neo4j  
+服务端版本 3.5.5
 地址：http://localhost:7474/browser/
+## 状态机  
+spring state machine  
