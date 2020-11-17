@@ -15,9 +15,6 @@ import lombok.experimental.Accessors;
 @Accessors(chain = true)
 public class FlowDto {
 
-    /**
-     * 这边只定义了一个id，还可以有其他业务所需要的字段
-     */
     @ApiModelProperty(value = "订单id", required = true)
     private Integer id;
 }

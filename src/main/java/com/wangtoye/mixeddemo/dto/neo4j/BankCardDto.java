@@ -1,5 +1,6 @@
 package com.wangtoye.mixeddemo.dto.neo4j;
 
+import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 import lombok.experimental.Accessors;
 
@@ -14,9 +15,12 @@ import lombok.experimental.Accessors;
 @Accessors(chain = true)
 public class BankCardDto {
 
+    @ApiModelProperty(value = "id", required = true)
     private Long id;
 
+    @ApiModelProperty(value = "银行卡名称", required = true)
     private String cardName;
 
+    @ApiModelProperty(value = "银行卡号", required = true)
     private String cardNum;
 }

@@ -3,10 +3,11 @@ package com.wangtoye.mixeddemo.controller;
 import com.wangtoye.mixeddemo.common.config.event.EventOne;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
-import org.springframework.beans.factory.annotation.Autowired;
+import lombok.AllArgsConstructor;
 import org.springframework.context.ApplicationEventPublisher;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
+
 
 /**
  * Created with IntelliJ IDEA.
@@ -16,11 +17,11 @@ import org.springframework.web.bind.annotation.RestController;
  * Description:
  */
 @RestController
+@AllArgsConstructor
 @Api(tags = "事件推送")
 public class PublishController {
 
-    @Autowired
-    private ApplicationEventPublisher publisher;
+    private final ApplicationEventPublisher publisher;
 
     @GetMapping("/publish")
     @ApiOperation(value = "推送接口")
