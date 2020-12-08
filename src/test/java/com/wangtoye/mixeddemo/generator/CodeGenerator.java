@@ -49,7 +49,7 @@ public class CodeGenerator {
         // 2.数据源配置
         DataSourceConfig dsc = new DataSourceConfig();
         dsc.setDbType(DbType.MYSQL);
-        dsc.setDriverName("com.mysql.jdbc.Driver");
+        dsc.setDriverName("com.mysql.cj.jdbc.Driver");
         dsc.setUsername("wangtoye");
         dsc.setPassword("wangtoye");
         dsc.setUrl("jdbc:mysql://localhost:3306/test?characterEncoding=utf-8&allowMultiQueries" +
@@ -63,7 +63,7 @@ public class CodeGenerator {
         //表名生成策略
         strategy.setNaming(NamingStrategy.underline_to_camel);
         //需要生成的表
-        strategy.setInclude("w_individual_business");
+        strategy.setInclude("t_user");
         //使用lombok
         strategy.setEntityLombokModel(true);
         strategy.setSuperServiceClass(null);
