@@ -1,3 +1,4 @@
+neo4j
 1.解压后当前目录的neo4j安装包，选取的路径建议不包含空格或者中文。
 2.设置环境变量NEO4J_HOME，并且把bin目录加入到环境变量path中。
 3.命令行执行
@@ -9,3 +10,8 @@ neo4j start
 neo4j stop
 neo4j restart
 neo4j status
+
+
+sentinel
+1.java -Dserver.port=8088 -Dcsp.sentinel.dashboard.server=localhost:8088 -Dproject.name=sentinel-dashboard -jar
+sentinel-dashboard-1.8.1.jar

@@ -13,3 +13,7 @@ kaptcha
 spring state machine  
 ## 爬虫  
 htmlunit 爬取身份证归属地  
+## sentinel限流  
+客户端版本 2.2.1
+服务端版本 1.8.1
+地址：http://localhost:8088
